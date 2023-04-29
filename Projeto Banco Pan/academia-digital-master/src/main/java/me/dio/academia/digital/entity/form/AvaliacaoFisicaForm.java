@@ -20,4 +20,9 @@ public class AvaliacaoFisicaForm {
   //@Positive(message = "${validatedValue}' precisa ser positivo.")
   //@DecimalMin(value = "150", message = "'${validatedValue}' precisa ser no mínimo {value}.")
   private double altura;
+
+public Long getAlunoId() {
+	// TODO Auto-generated method stub
+	return null;
+}
 }

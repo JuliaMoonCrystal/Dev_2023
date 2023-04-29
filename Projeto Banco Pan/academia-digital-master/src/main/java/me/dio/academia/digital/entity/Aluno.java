@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Data
@@ -35,5 +36,25 @@ public class Aluno {
   @OneToMany(mappedBy = "aluno", cascade = CascadeType.REMOVE , fetch = FetchType.LAZY)
   @JsonIgnore
   private List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
+
+public void setNome(String string) {
+	this.nome= this.nome;
+	
+}
+
+public void setCpf(String string) {
+	this.cpf= this.cpf;
+	
+}
+
+public void setBairro(String string) {
+	this.bairro=this.bairro;
+	
+}
+
+public void setDataDeNascimento(Date date) {
+	this.dataDeNascimento = this.dataDeNascimento;
+	
+}
 
 }

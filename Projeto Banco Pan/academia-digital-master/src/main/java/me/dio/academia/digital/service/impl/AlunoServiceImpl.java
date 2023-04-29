@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -22,10 +23,10 @@ public class AlunoServiceImpl implements IAlunoService {
   @Override
   public Aluno create(AlunoForm form) {
     Aluno aluno = new Aluno();
-//    aluno.setNome(form.getNome());
-//    aluno.setCpf(form.getCpf());
-//    aluno.setBairro(form.getBairro());
-//    aluno.setDataDeNascimento(form.getDataDeNascimento());
+    aluno.setNome("Lucas Silva");
+    aluno.setCpf("11111111111111");
+    aluno.setBairro("Itaquera");
+    aluno.setDataDeNascimento(new Date());
 
     return repository.save(aluno);
   }

@@ -1,7 +1,7 @@
 
 #exemplo de conexão
-#server.port: 8081
-#
+server.port: 8081
+
 #spring:
 #  datasource:
 #    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate

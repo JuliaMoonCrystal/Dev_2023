@@ -24,7 +24,7 @@ public class AvaliacaoFisicaServiceImpl implements IAvaliacaoFisicaService {
   @Override
   public AvaliacaoFisica create(AvaliacaoFisicaForm form) {
     AvaliacaoFisica avaliacaoFisica = new AvaliacaoFisica();
-//    Aluno aluno = alunoRepository.findById(form.getAlunoId()).get();
+    Aluno aluno = alunoRepository.findById(form.getAlunoId()).get();
 
 //    avaliacaoFisica.setAluno(aluno);
 //    avaliacaoFisica.setPeso(form.getPeso());

@@ -28,4 +28,9 @@ public class AlunoForm {
   @NotNull(message = "Prencha o campo corretamente.")
   @Past(message = "Data '${validatedValue}' é inválida.")
   private LocalDate dataDeNascimento;
+
+public Object getNome() {
+	// TODO Auto-generated method stub
+	return this.nome;
+}
 }
