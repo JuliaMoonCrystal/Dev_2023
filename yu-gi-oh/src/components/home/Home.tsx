@@ -43,12 +43,12 @@ function Home() {
 
                 
 
-                {/* <Grid direction="row" item xs={12} justifyContent="center">
+                <Grid direction="row" item xs={12} justifyContent="center">
                     <Box paddingX={20} marginTop={10}>
                         <img src={slifer} title="home" width={300} height={360} ></img>
                     </Box>
-                </Grid> */}
-                {/* <Grid item xs={4} alignItems="center">
+                </Grid>
+                <Grid item xs={4} alignItems="center">
                     <img className='legoshi' src="https://i.pinimg.com/originals/cc/8d/21/cc8d2169bb5f02d12e749ef08d4868d9.gif" alt="imagem da home" width="500px" height="500px" />
                 </Grid>
                 <Grid item xs={4} alignItems="center">
@@ -56,7 +56,7 @@ function Home() {
                 </Grid>
                 <Grid item xs={4} >
                     <img className='legoshi' src="https://i.pinimg.com/originals/cc/8d/21/cc8d2169bb5f02d12e749ef08d4868d9.gif" alt="imagem da home" width="500px" height="500px" />
-                </Grid> */}
+                </Grid>
                 <Grid xs={12} className='postagem'>
                     {/* <TabPostagem /> */}
                 </Grid>
