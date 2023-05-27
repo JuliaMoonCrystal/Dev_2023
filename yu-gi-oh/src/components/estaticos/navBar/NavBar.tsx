@@ -9,7 +9,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import TvIcon from '@mui/icons-material/Tv';
 import InfoIcon from '@mui/icons-material/Info';
 import { Link } from "react-router-dom";
-import logo from '/home/orangebox/pasta/Dev_2023/yu-gi-oh/src/asserts/logo_site.jpg'
+import logo from 'src\asserts\logo_site.jpg'
 
 function NavBar() {
     const [value, setValue] = React.useState(0);

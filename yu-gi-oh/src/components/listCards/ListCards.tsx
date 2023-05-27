@@ -1,7 +1,6 @@
 import { Box, CardActions, CardContent, CardMedia, Grid, Typography } from "@material-ui/core";
 import { Button, Card } from "react-bootstrap";
 import NavBar from "../estaticos/navBar/NavBar";
-import slifer from '/home/orangebox/pasta/Dev_2023/yu-gi-oh/src/asserts/slifer.png'
 
 const cardsData = [
     { title: 'Card 1', content: 'Conteúdo do card 1' },

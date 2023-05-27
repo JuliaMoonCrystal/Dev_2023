@@ -2,10 +2,10 @@ import { Paper, Button, Grid, Typography, BottomNavigationAction, BottomNavigati
 import './Home.css'
 import Box from '@mui/material/Box';
 import NavBar from "../estaticos/navBar/NavBar";
-import logo from '/home/orangebox/pasta/Dev_2023/yu-gi-oh/src/asserts/yugi_home.png'
-import slifer from '/home/orangebox/pasta/Dev_2023/yu-gi-oh/src/asserts/slifer.png'
-import obelisco from '/home/orangebox/pasta/Dev_2023/yu-gi-oh/src/asserts/obelisco.jpg'
-import ra from '/home/orangebox/pasta/Dev_2023/yu-gi-oh/src/asserts/ra.jpg'
+import logo from './src/asserts/logo_site.jpg';
+import slifer from './src/asserts/slifer.png';
+import obelisco from './src/asserts/obelisco.jpg';
+import ra from './src/asserts/ra.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Home() {
