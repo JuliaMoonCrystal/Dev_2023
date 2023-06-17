@@ -11,12 +11,20 @@ const cardsData = [
     { title: 'Card 6', content: 'Conteúdo do card 6' },
     { title: 'Card 7', content: 'Conteúdo do card 7' },
     { title: 'Card 8', content: 'Conteúdo do card 8' },
+    { title: 'Card 1', content: 'Conteúdo do card 1' },
+    { title: 'Card 2', content: 'Conteúdo do card 2' },
+    { title: 'Card 3', content: 'Conteúdo do card 3' },
+    { title: 'Card 4', content: 'Conteúdo do card 4' },
+    { title: 'Card 5', content: 'Conteúdo do card 5' },
+    { title: 'Card 6', content: 'Conteúdo do card 6' },
+    { title: 'Card 7', content: 'Conteúdo do card 7' },
+    { title: 'Card 8', content: 'Conteúdo do card 8' },
 ];
 
 const bull = (
     <Box
         component="span"
-        sx={{ display: 'inline-block', mx: '2px' }}
+        sx={{ display: 'inline-block', mx: '12px' }}
     >
         •
     </Box>
@@ -29,7 +37,7 @@ function ListCards() {
                 <NavBar />
             </Grid>
             <Grid item xs={12}  className='home'>
-                <Grid container spacing={2}>
+                <Grid container spacing={2} >
                     {cardsData.map((card) => (
                         <Grid item xs={12} sm={6} md={3} key={card.title}>
                             <Card>

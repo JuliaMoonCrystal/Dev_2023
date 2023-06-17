@@ -9,7 +9,6 @@ import PersonIcon from '@mui/icons-material/Person';
 import TvIcon from '@mui/icons-material/Tv';
 import InfoIcon from '@mui/icons-material/Info';
 import { Link } from "react-router-dom";
-import logo from 'src\asserts\logo_site.jpg'
 
 function NavBar() {
     const [value, setValue] = React.useState(0);
@@ -26,7 +25,7 @@ function NavBar() {
                             onChange={(event, newValue) => {
                                 setValue(newValue);
                             }}>
-                            <img src={logo} title="home"></img>
+                            <img src="https://i.pinimg.com/550x/1b/c0/15/1bc015a738fa3ba7eeae590aca72db28.jpg" title="home"></img>
                         </BottomNavigation>
                     </Box>
                 </Grid>

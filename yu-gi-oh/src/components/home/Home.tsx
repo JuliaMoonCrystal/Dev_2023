@@ -17,27 +17,27 @@ function Home() {
                 </Grid>
 
                 <Grid alignItems="center" item xs={12} className="mainGrid">
-                    <Box paddingX={70}>
+                    <Box paddingX={80}>
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" style={{ color: "white", fontWeight: "bold" }}>Olá,Bem vindo(a) ao site!</Typography>
-                        <img src={logo} title="home" width={600} height={360} style={{ verticalAlign: "center" }}></img>
+                        <img src="https://github.com/JuliaMoonCrystal/Dev_2023/blob/main/yu-gi-oh/src/asserts/landPage_yugi.jpg?raw=true" title="home" width={600} height={360} style={{ verticalAlign: "center" }}></img>
                     </Box>
                 </Grid>
 
                 <Grid direction="row" item xs={4} justifyContent="center" alignItems="center">
                     <Box paddingX={20} marginTop={10}>
-                        <img src={obelisco} title="home" width={300} height={360} ></img>
+                        <img src="https://github.com/JuliaMoonCrystal/Dev_2023/blob/main/yu-gi-oh/src/asserts/slifer.jpeg?raw=true" title="home" width={300} height={360} ></img>
                     </Box>
                 </Grid>
 
                 <Grid direction="row" item xs={4} justifyContent="center">
                     <Box paddingX={20} marginTop={10}>
-                        <img src={ra} title="home" width={300} height={360} ></img>
+                        <img src="https://github.com/JuliaMoonCrystal/Dev_2023/blob/main/yu-gi-oh/src/asserts/obelisco.jpg?raw=true" title="home" width={300} height={360} ></img>
                     </Box>
                 </Grid>
 
                 <Grid direction="row" item xs={4} justifyContent="center">
                     <Box paddingX={20} marginTop={10}>
-                        <img src={slifer} title="home" width={300} height={360} ></img>
+                        <img src="https://github.com/JuliaMoonCrystal/Dev_2023/blob/main/yu-gi-oh/src/asserts/ra.jpg?raw=true" title="home" width={300} height={360} ></img>
                     </Box>
                 </Grid>
 
@@ -45,7 +45,7 @@ function Home() {
 
                 <Grid direction="row" item xs={12} justifyContent="center">
                     <Box paddingX={20} marginTop={10}>
-                        <img src={slifer} title="home" width={300} height={360} ></img>
+                        <img src="https://i.pinimg.com/550x/1b/c0/15/1bc015a738fa3ba7eeae590aca72db28.jpg" title="home" width={300} height={360} ></img>
                     </Box>
                 </Grid>
                 <Grid item xs={4} alignItems="center">
