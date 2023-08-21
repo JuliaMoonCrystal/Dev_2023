@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a077ae5a-d0b1-44ab-bc82-0caf083f2353" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../yu-gi-oh/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yu-gi-oh/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yu-gi-oh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yu-gi-oh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yu-gi-oh/src/components/estaticos/navBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../yu-gi-oh/src/components/estaticos/navBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yu-gi-oh/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../yu-gi-oh/src/components/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yu-gi-oh/src/components/listCards/ListCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../yu-gi-oh/src/components/listCards/ListCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yu-gi-oh/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yu-gi-oh/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="a077ae5a-d0b1-44ab-bc82-0caf083f2353" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +18,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Julia/Documents/GitHub/Dev_2023/JavaFx"
+    "last_opened_file_path": "C:/Users/Julia/Documents/Development/Workspace/Node/schott-easypro2-api"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
