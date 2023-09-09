@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo as classes de um Jogo</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    class Heroi {
+        constructor(nome, idade, tipo) {
+            this.nome = nome
+            this.idade = idade
+            this.tipo = tipo
+        }
+
+        get atacar() {
+            return this.ataque(this.nome, this.idade, this.tipo)
+        }
+
+        ataque(nome, idade, tipo) {
+            if (tipo == 'mago') {
+                return 'o ' + tipo + ' atacou usando magia'
+            }
+            else if (tipo == 'guerreiro') {
+                return 'o ' + tipo + ' atacou usando espada'
+            }
+            else if (tipo == 'monge') {
+                return 'o ' + tipo + ' atacou usando artes marciais'
+            }
+            else if (tipo == 'ninja') {
+                return 'o ' + tipo + ' atacou usando shuriken'
+            }
+        }
+    }
+
+    const heroi = new Heroi('Gamamori', 19, 'monge')
+</script>
+
+</html>
