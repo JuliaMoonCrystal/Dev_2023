@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de partidas Rankeadas</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let vitorias = 20;
+    let derrotas = 10;
+    let resultado = CalcRanqueadas(vitorias, derrotas)
+    console.log(resultado);
+
+
+    function CalcRanqueadas(vitorias, derrotas) {
+        let saldo = vitorias - derrotas
+
+        if (vitorias <= 10) {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Ferro'
+        }
+        else if (vitorias >= 11 && vitorias <= 20) {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Bronze'
+        }
+        else if (vitorias >= 21 && vitorias <= 50) {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Prata'
+        }
+        else if (vitorias >= 51 && vitorias <= 80) {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Ouro'
+        }
+        else if (vitorias >= 81 && vitorias <= 90) {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Diamante'
+        }
+        else if (vitorias >= 91 && vitorias <= 100) {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Lendário'
+        }
+        else {
+            return 'O Herói tem de saldo de ' + saldo + ' está no nível de Imortal'
+        }
+    }
+
+
+</script>
+
+</html>
