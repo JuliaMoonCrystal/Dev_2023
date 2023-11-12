@@ -1,0 +1,27 @@
+--------------exercicio1-----------------
+let nomeBeneficiario;
+let valorConta;
+let dataVencimento;
+
+nomeBeneficiario = gets();
+valorConta = parseFloat(gets());
+dataVencimento = gets();
+
+print('Pagamento Agendado! Valor: R$ '+valorConta+', vencimento '+dataVencimento+'.');
+-----------------------------------------
+
+--------------exercicio2-----------------
+if (/^\d{6}$/.test(numeroConta)) {
+  const numArray = numeroConta.split('').map(Number);
+  const sum = numArray.reduce((a, b) => a + b, 0);
+
+  if (numArray[0] > 0 && sum <= 30) {
+    print('Numero de conta valido.');
+  } else {
+    if (numArray[0] == 0) {
+      print('Numero de conta invalido: O primeiro digito deve ser maior que zero.');
+    } else {
+      print('Numero de conta invalido: A soma dos digitos e maior que 30.');
+    }
+  }
+}
